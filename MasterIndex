@@ -1,0 +1,98 @@
+<html>
+<head>
+<title>
+"JavaScript WorkBook Tut12 Completed!"
+</title>
+</head>
+<body>
+<script type="text/javascript">
+document.write("Step 1: Hi JavaScipt");
+document.write("Step 2: Hi JavaScipt", "<br />");
+
+var f = "fruit"; //String variable.
+document.write("Step 3: I love: ",f);
+
+//Variable not start with numbers.
+//Math Operators//
+var x = 35; //Number variable.
+var y = 25;
+var z = x * y;
+var a = x - y;
+var b = x / y;
+document.write("<br />" + "The sum of z is: " + z, "<br />" +a+"<br />",b+"<br />");
+
+var Num1 = -10.12345;//Negative decimal numbers.
+document.write(Num1);
+
+var Str1 ="Hi I \"Love \" fruits" + "<br />";
+document.write(Str1);
+
+function func1()
+{
+alert("A POP-UP! ALERT!");
+}
+func1();
+
+function ball(x,y)
+{
+document.write(x, " is bigger than " + y, "<br />");
+}
+ball("One","Two");
+ball("Three", "Four");
+ball("Five","Six");
+
+function fruits(one, two)
+{
+document.write("<br />", one + " is good than ", two + ".");
+}
+fruits("Kapil", "Beta");
+
+function myAdd1(a,b)
+{
+var c = a + b;
+document.write("<br />", "The value of 'c' variable is: " + c);
+}
+myAdd1(3,6);
+
+function myA()
+{
+document.write("<br />" + "I am A function!");
+}
+function myB()
+{
+document.write("<br />" + "I am B function!"); 
+}
+function myC()
+{
+document.write("<br />" + "Now function 'C' called.");
+myA();//Function A called.
+myB();//Function B called.
+}
+myC();//Now, function C called.
+
+//Global and Local Variables//
+
+//Local Variable Example//
+function myLocal1()
+{
+var L = ("<br />" + "Its 'Local Variable'.");
+document.write("<br />", "Local Variable called." + L);
+}
+myLocal1();
+
+//Global Variable Example//
+var myGlobal1 = 0.007;
+function callGlobal1()
+{
+document.write("<br/>" + "I called the 'Global Variable' now.", myGlobal1);
+}
+callGlobal1();
+
+</script>
+
+<form>
+<input type="button" value="Touch Me" onclick="func1()">
+</form>
+
+</body>
+</html>
