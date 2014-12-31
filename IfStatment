@@ -1,0 +1,16 @@
+//If statement examples//
+var one = 21;
+var two = 11;
+
+if(one != two)//Variable comparision//
+{
+document.write("<br />","One and two are 'Not' equal.");
+}
+
+var three = 007;
+var four = 007;
+
+if(three == four) //Variable comparision//
+{
+document.write("<br />" + "Three and four are equal.");
+}
