@@ -1,0 +1,16 @@
+//Switch Statement//
+
+var fruit = "Apples"
+
+switch(fruit)
+{
+case "Mango":
+	document.write("Mango is sweet.");
+	break;
+case "Apple":
+	document.write("<br />" + "Apple is nice.");
+	break;
+default:
+	document.write("<br />" + "Its a default case!");
+	break;
+}
