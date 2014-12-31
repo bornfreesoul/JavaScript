@@ -1,0 +1,50 @@
+//If-else statement examples//
+var five = 111;
+var six = 222;
+
+if(five == six)
+{
+document.write("<br />"+ "Five and six vairables are equal.");
+}
+else
+{
+document.write("<br />" + "Five and six are 'Not' equal.");
+}
+if(five > six)
+{
+document.write("<br />"+ "Five is greater than six vairable.");
+}
+else
+{
+document.write("<br />" + "Five is less than six variable.");
+}
+
+var myFirstName = "Kapil";
+var myLastName = "Kumar";
+
+if(myFirstName == "Kapil")
+{
+	if(myLastName == "Kumar")
+	{
+	document.write("<br />" + "Your full name is 'Kapil Kumar'");
+	}
+	else
+	{
+	document.write("<br />" + "You are some one else.");
+	}
+	}
+	
+var myFirstname = "Apil";
+var myLastname = "Umar";
+
+if(myFirstname == "Apil")
+{
+	if(myLastname == "Kumar")
+	{
+	document.write("<br />" + "Your full name is 'Apil Umar'");
+	}
+	else
+	{
+	document.write("<br />" + "You are some one else.");
+	}
+	}
