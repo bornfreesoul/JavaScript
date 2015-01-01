@@ -1,12 +1,14 @@
 <html>
 <head>
 <title>
-"JavaScript WorkBook Tut12 Completed!"
+"JavaScript WorkBook Tut20 Completed!"
 </title>
 </head>
-<body>
+<body onload = "alert('This site data is loaded!')"/>;
+<body onunload = "alert('Bye!')"/>;
 <script type="text/javascript">
-document.write("Step 1: Hi JavaScipt");
+
+<!-- document.write("Step 1: Hi JavaScipt");
 document.write("Step 2: Hi JavaScipt", "<br />");
 
 var f = "fruit"; //String variable.
@@ -88,11 +90,129 @@ document.write("<br/>" + "I called the 'Global Variable' now.", myGlobal1);
 }
 callGlobal1();
 
+//If statement examples//
+var one = 21;
+var two = 11;
+
+if(one != two)//Variable comparision//
+{
+document.write("<br />","One and two are 'Not' equal.");
+}
+
+var three = 007;
+var four = 007;
+
+if(three == four) //Variable comparision//
+{
+document.write("<br />" + "Three and four are equal.");
+}
+
+//If-else statement examples//
+var five = 111;
+var six = 222;
+
+if(five == six)
+{
+document.write("<br />"+ "Five and six vairables are equal.");
+}
+else
+{
+document.write("<br />" + "Five and six are 'Not' equal.");
+}
+if(five > six)
+{
+document.write("<br />"+ "Five is greater than six vairable.");
+}
+else
+{
+document.write("<br />" + "Five is less than six variable.");
+}
+
+var myFirstName = "Kapil";
+var myLastName = "Kumar";
+
+if(myFirstName == "Kapil")
+{
+	if(myLastName == "Kumar")
+	{
+	document.write("<br />" + "Your full name is 'Kapil Kumar'");
+	}
+	else
+	{
+	document.write("<br />" + "You are some one else.");
+	}
+	}
+	
+var myFirstname = "Apil";
+var myLastname = "Umar";
+
+if(myFirstname == "Apil")
+{
+	if(myLastname == "Kumar")
+	{
+	document.write("<br />" + "Your full name is 'Apil Umar'");
+	}
+	else
+	{
+	document.write("<br />" + "You are some one else.");
+	}
+	}
+
+//Switch Statement//
+
+var fruit = "Apples"
+
+switch(fruit)
+{
+case "Mango":
+	document.write("Mango is sweet.");
+	break;
+case "Apple":
+	document.write("<br />" + "Apple is nice.");
+	break;
+default:
+	document.write("<br />" + "Its a default case!");
+	break;
+}
+
+
+//For loop example//
+for(x=0; x<=10; x++)
+{
+document.write("<br \>" + "Value of x is: ", x);
+}
+
+//While loop example//
+var counter = 0;
+while(counter <= 10)
+{
+document.write("<br \>" + "The value of counter is: " + counter);
+counter++;
+} 
+
+//Do-While loop//
+var counter = 0;
+do
+{
+document.write("<br \>" + "This is the value of do-while counter is: ", counter);
+counter++;
+}
+while(counter <= 10)
+
+<!-- //Event Handlers Function Example// -->
+function eventHandler()
+{
+alert("This is event handler alert pop-up.");
+}
+	
 </script>
 
+<!-- //Event Handlers Example// -->
 <form>
-<input type="button" value="Touch Me" onclick="func1()">
+<input type="button" value="Event Text" onClick="eventHandler();alert('Second Event Handler Alert Pop-up.')"/>
 </form>
 
+<a href ="http://www.testing-mines.blogspot.com" onmouseover="alert('On Mouse Over')"> Hover Mouse on</a><br />
+<a href ="http://www.testing-mines.blogspot.com" onmouseout="alert('Come on back!')"> Hover Mouse out</a>
 </body>
 </html>
