@@ -1,0 +1,39 @@
+<html>
+
+<head>
+
+<title>
+"JavaScript WorkBook Tut23 Completed!"
+</title>
+
+</head>
+
+<body>  
+
+<script type ="text/javascript">
+
+//While loop example//
+var counter = 0;
+while(counter <= 10)
+{
+document.write("<br \>" + "The value of counter is: " + counter);
+counter++;
+} 
+
+//Do-While loop//
+var counter = 0;
+do
+{
+document.write("<br \>" + "This is the value of do-while counter is: ", counter);
+counter++;
+}
+while(counter <= 10)
+
+</script>
+
+<a href ="http://www.testing-mines.blogspot.com" onmouseover="alert('On Mouse Over')"> Hover Mouse on</a><br />
+<a href ="http://www.testing-mines.blogspot.com" onmouseout="alert('Come on back!')"> Hover Mouse out</a>
+
+</body>
+
+</html>
