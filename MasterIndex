@@ -1,7 +1,7 @@
 <html>
 <head>
 <title>
-"JavaScript WorkBook Tut20 Completed!"
+"JavaScript WorkBook Tut23 Completed!"
 </title>
 </head>
 <body onload = "alert('This site data is loaded!')"/>;
