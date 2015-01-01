@@ -1,0 +1,22 @@
+<html>
+
+<head>
+
+<title>
+"JavaScript WorkBook Tut23 Completed!"
+</title>
+
+</head>
+
+<body onload = "alert('This site data is loaded!')"/>;
+
+<form>
+<input type="button" value="Event Text" onClick="eventHandler();alert('Second Event Handler Alert Pop-up.')"/>
+</form>
+
+<a href ="http://www.testing-mines.blogspot.com" onmouseover="alert('On Mouse Over')"> Hover Mouse on</a><br />
+<a href ="http://www.testing-mines.blogspot.com" onmouseout="alert('Come on back!')"> Hover Mouse out</a>
+
+</body>
+
+</html>
