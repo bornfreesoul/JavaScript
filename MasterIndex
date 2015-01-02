@@ -1,12 +1,17 @@
 <html>
 <head>
 <title>
-"JavaScript WorkBook Tut23 Completed!"
+"JavaScript WorkBook Completed!"
 </title>
 </head>
 <body onload = "alert('This site data is loaded!')"/>;
 <body onunload = "alert('Bye!')"/>;
+
 <script type="text/javascript">
+
+var float_var = 2.21345678;
+var float_str = float_var.toFixed(5);
+document.write("<br \>" + float_str, "<br \>");
 
 <!-- document.write("Step 1: Hi JavaScipt");
 document.write("Step 2: Hi JavaScipt", "<br />");
@@ -204,12 +209,32 @@ function eventHandler()
 {
 alert("This is event handler alert pop-up.");
 }
+
+//Validation Exmaple//
+function validate()
+{
+if(document.KapilForm.thebox.checked)
+	alert("Yes its checked");
+else
+	alert("Not checked");
+}
+
+//Math funcation Example//
+var n = prompt("Please enter the value for sqrt: ");
+var answer = Math.sqrt(n);
+document.write("<br />" + "The sqrt " , n, " value is: " + answer);
 	
 </script>
 
 <!-- //Event Handlers Example// -->
 <form>
 <input type="button" value="Event Text" onClick="eventHandler();alert('Second Event Handler Alert Pop-up.')"/>
+</form>
+
+<!-- //Validation Example// -->
+<form name="KapilForm">
+	<input type="checkbox" name="thebox"/>
+	<input type="button" value="ClickMe" onClick="validate()"/>
 </form>
 
 <a href ="http://www.testing-mines.blogspot.com" onmouseover="alert('On Mouse Over')"> Hover Mouse on</a><br />
