@@ -1,0 +1,5 @@
+//Math funcation Example//
+var n = prompt("Please enter the value for sqrt: ");
+var answer = Math.sqrt(n);
+document.write("<br />" + "The sqrt " , n, " value is: " + answer);
+	
