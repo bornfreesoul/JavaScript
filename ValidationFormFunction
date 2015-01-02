@@ -1,0 +1,29 @@
+<html>
+<head>
+<title>
+"JavaScript WorkBook Completed!"
+</title>
+</head>
+<body onload = "alert('This site data is loaded!')"/>;
+<body onunload = "alert('Bye!')"/>;
+
+<script type="text/javascript">
+
+//Validation Exmaple//
+function validate()
+{
+if(document.KapilForm.thebox.checked)
+	alert("Yes its checked");
+else
+	alert("Not checked");
+}
+
+</script>
+
+!-- //Validation Example// -->
+<form name="KapilForm">
+	<input type="checkbox" name="thebox"/>
+	<input type="button" value="ClickMe" onClick="validate()"/>
+</form>
+</body>
+</html>
